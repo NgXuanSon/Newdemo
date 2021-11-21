@@ -9,14 +9,30 @@ using Netmo.Data;
 namespace Netmo.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20211108040258_Create_Table_Student")]
-    partial class Create_Table_Student
+    [Migration("20211121172200_Create_Table_People")]
+    partial class Create_Table_People
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "5.0.12");
+
+            modelBuilder.Entity("Netmo.Models.Employee", b =>
+                {
+                    b.Property<string>("EmployeeID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("EmployeeName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("EmployeeID");
+
+                    b.ToTable("Employee");
+                });
 
             modelBuilder.Entity("Netmo.Models.Movie", b =>
                 {
@@ -52,6 +68,25 @@ namespace Netmo.Migrations
                     b.HasKey("PersonID");
 
                     b.ToTable("Person");
+                });
+
+            modelBuilder.Entity("Netmo.Models.Product", b =>
+                {
+                    b.Property<string>("ProductID")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ProductName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Quantity")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UnitPrice")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("ProductID");
+
+                    b.ToTable("Product");
                 });
 
             modelBuilder.Entity("Netmo.Models.Student", b =>

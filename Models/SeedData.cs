@@ -11,9 +11,9 @@ namespace Netmo.Models
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
-            using (var context = new ApplicationDBcontext(
+            using (var context = new ApplicationDBContext(
                 serviceProvider.GetRequiredService<
-                    DbContextOptions<ApplicationDBcontext>>()))
+                    DbContextOptions<ApplicationDBContext>>()))
             {
                 // Look for any movies.
                 if (context.Student.Any())

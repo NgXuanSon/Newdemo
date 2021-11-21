@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Netmo.Models;
+namespace Netmo.Data
+{
 
     public class ApplicationDBContext : DbContext
     {
@@ -21,4 +23,8 @@ using Netmo.Models;
         public DbSet<Netmo.Models.Employee> Employee { get; set; }
 
         public DbSet<Netmo.Models.Product> Product { get; set; }
+
+        public DbSet<Peson> Peson { get; set; }
+        public DbSet<Studen> Studen { get; set; }
     }
+}
