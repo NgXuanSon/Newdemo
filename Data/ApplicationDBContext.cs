@@ -26,5 +26,6 @@ namespace Netmo.Data
 
         public DbSet<Peson> Peson { get; set; }
         public DbSet<Studen> Studen { get; set; }
+        public DbSet<Netdemo> Netdemo { get; set; }
     }
 }

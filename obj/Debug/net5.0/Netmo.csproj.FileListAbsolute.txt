@@ -192,3 +192,8 @@ F:\.Net\Netcore\Netmo\obj\Debug\net5.0\Razor\Views\Product\Delete.cshtml.g.cs
 F:\.Net\Netcore\Netmo\obj\Debug\net5.0\Razor\Views\Product\Details.cshtml.g.cs
 F:\.Net\Netcore\Netmo\obj\Debug\net5.0\Razor\Views\Product\Edit.cshtml.g.cs
 F:\.Net\Netcore\Netmo\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+F:\.Net\Netcore\Netmo\obj\Debug\net5.0\Razor\Views\Netdemo\Create.cshtml.g.cs
+F:\.Net\Netcore\Netmo\obj\Debug\net5.0\Razor\Views\Netdemo\Delete.cshtml.g.cs
+F:\.Net\Netcore\Netmo\obj\Debug\net5.0\Razor\Views\Netdemo\Details.cshtml.g.cs
+F:\.Net\Netcore\Netmo\obj\Debug\net5.0\Razor\Views\Netdemo\Edit.cshtml.g.cs
+F:\.Net\Netcore\Netmo\obj\Debug\net5.0\Razor\Views\Netdemo\Index.cshtml.g.cs

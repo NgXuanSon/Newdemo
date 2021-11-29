@@ -15629,8 +15629,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\.Net\\Netcore\\Netmo\\Views\\Netdemo\\Details.cshtml",
+      "TargetPath": "Views\\Netdemo\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\.Net\\Netcore\\Netmo\\Views\\Employee\\Delete.cshtml",
       "TargetPath": "Views\\Employee\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\.Net\\Netcore\\Netmo\\Views\\Netdemo\\Index.cshtml",
+      "TargetPath": "Views\\Netdemo\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15664,6 +15674,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\.Net\\Netcore\\Netmo\\Views\\Netdemo\\Edit.cshtml",
+      "TargetPath": "Views\\Netdemo\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\.Net\\Netcore\\Netmo\\Views\\Movie\\Edit.cshtml",
       "TargetPath": "Views\\Movie\\Edit.cshtml",
       "FileKind": "mvc"
@@ -15694,6 +15709,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "f:\\.Net\\Netcore\\Netmo\\Views\\Netdemo\\Delete.cshtml",
+      "TargetPath": "Views\\Netdemo\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "f:\\.Net\\Netcore\\Netmo\\Views\\Employee\\Create.cshtml",
       "TargetPath": "Views\\Employee\\Create.cshtml",
       "FileKind": "mvc"
@@ -15706,6 +15726,11 @@
     {
       "FilePath": "f:\\.Net\\Netcore\\Netmo\\Views\\Product\\Index.cshtml",
       "TargetPath": "Views\\Product\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "f:\\.Net\\Netcore\\Netmo\\Views\\Netdemo\\Create.cshtml",
+      "TargetPath": "Views\\Netdemo\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
